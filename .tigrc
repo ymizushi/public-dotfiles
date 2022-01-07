@@ -1,0 +1,3 @@
+bind generic G move-last-line
+bind branch P !?git push origin %(branch)
+bind branch R !?git pull --rebase origin %(branch)

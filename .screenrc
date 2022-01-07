@@ -1,0 +1,24 @@
+defutf8 on
+defencoding utf8
+encoding utf-8 utf-8
+
+startup_message off
+autodetach on
+vbell off
+
+caption always "%-w%10L>%{=b bw}%n %t%{-}%+w%-0="
+hardstatus alwayslastline "%H%=%Y/%m/%d %02c"
+shelltitle "$ |shell"
+
+bindkey -k kD stuff \177
+
+termcapinfo xterm* ti@:te@
+
+bind w windowlist
+bind , title
+bind % split -v
+bind \" split
+bind o next
+bind [ meta
+
+shell $SHELL

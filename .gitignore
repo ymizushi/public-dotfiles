@@ -1,0 +1,15 @@
+.netrwbook
+.netrwhist
+.vim/neobundle
+.DS_Store
+.vim/man/
+.lein/
+!.lein/profiles.clj
+.emacs.d/auto-save-list
+.emacs.d/el-get
+.emacs.d/elpa/archives
+tags
+*.un~
+installer.sh
+*.pyc
+.lsp
